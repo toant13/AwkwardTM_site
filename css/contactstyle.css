@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+
+input
+{
+	width:200px!important;
+	font-size:14px;
+	margin-left:0px
+}
+
+label
+{
+	margin-left:10px;	
+}
+
+
+.contactdiv
+{
+	width: 450px;
+	margin: 0px auto 10px 40px;
+	text-align:left;
+	float:left;
+	
+}
+
+.contactmap
+{
+	width:400px;
+	float:left;
+	margin-left:20px;	
+}
+
+
+.contactdiv h1
+{
+	font-size:15px;	
+	
+	
+}
+
+
+
+.contactdiv p
+{
+	margin-bottom:10px;
+	
+	
+	
+}
+
+textarea
+{
+	height: 150px;
+	line-height::150%;	
+	max-width: 400px;
+	width: 400px;
+	font-size:14px;
+	
+}
+
+label
+{
+	font-size:16px;	
+	
+}

@@ -1,0 +1,766 @@
+#vendormain
+{
+	width:333px;
+	float:left;
+	text-align:left;
+	margin-bottom:30px;
+	margin-left:333px;
+}
+
+#vendormain h2
+{
+	font-size: 20px;
+	margin-top:0;	
+}
+
+#vendormain hr
+{
+	height: 1px;
+}
+
+#vendormain p
+{
+	
+	color: #4A4A4A;
+		
+}
+
+
+
+#biodiv
+{
+	width:inherit;
+	height:inherit;
+	margin-bottom:10px;
+	overflow:auto;
+	padding: 0px 8px 5px 8px;
+		
+}
+
+#aboutmain hr
+{
+	height: 1px;	
+}
+
+
+
+#aboutmain h1
+{
+	font-size:30px;	
+	font-weight:normal;
+	margin-bottom: 5px;
+	/*color: #4A4A4A;*/
+	text-align:left;
+	font-family:"kravitz";
+	
+}
+
+#aboutmain
+{
+	float:center;
+	width:750px;
+	margin: 0px auto 25px auto;
+	height: auto;	
+	
+	
+	
+	
+}
+
+#aboutmain img
+{
+	float:left;	
+	margin-right:10px;
+	
+}
+
+
+
+#aboutmain p
+{
+	
+	text-align:left;
+	font-size:14px;
+	
+	
+}
+
+
+
+
+
+
+
+
+#blogmain
+{
+	float:left;
+	width:650px;
+	overflow:auto;	
+	padding: 0 15px 30px 15px;
+	word-wrap:break-word;
+	text-align:left;
+}
+
+
+
+#blogmain #endtitle
+{
+	padding-bottom: 0px;
+	border-bottom: 1px solid #4A4A4A;
+	margin-bottom:15px;
+	width:55%;
+	
+}
+
+
+#blogmain h1
+{
+	font-size:24px;	
+	font-weight:normal;
+	margin-bottom: 5px;
+	/*color: #4A4A4A;*/
+	/*font-family:"kravitz","gillsan",Tahoma,"MS Serif","New York",Geneva,sans-serif;*/
+}
+#blogmain h2
+{
+	
+	font-weight:normal;
+	font-size:14px;	
+	margin: 0px 0px 10px 0px;
+	color: #4A4A4A;
+}
+
+#blogmain p
+{
+	color:#4A4A4A;
+	font-size:15px;
+	margin-top:10px;	
+	padding-bottom:10px;
+	border-bottom: 1px solid #4A4A4A;	
+}
+
+
+
+
+
+#bloginstag
+{
+	float:left;
+	width:350px;
+
+	border-left:1px solid #333;
+	margin-bottom:40px;
+	overflow:hidden;
+}
+
+
+#bloginstag h3
+{
+	font-size:18px;	
+	font-weight:normal;
+	margin-bottom: 20px;
+	color: #4A4A4A;
+	/*font-family:"kravitz","gillsan",Tahoma,"MS Serif","New York",Geneva,sans-serif;*/
+}
+
+#bloginstag h2
+{
+	
+	font-weight:normal;
+	font-size:14px;	
+	margin: 0px 0px 10px 0px;
+	color: #4A4A4A;
+}
+
+#bloginstag p
+{
+	
+	font-weight:normal;
+	font-size:14px;	
+	margin: 0px 10px 15px 25px;
+	color: #4A4A4A;
+	text-align:left;
+}
+
+
+
+
+
+#slider 
+{
+	margin: 0 0 10px;
+}
+
+
+
+.mediadiv a:hover
+{
+	position:relative;
+	bottom:4px;
+}
+
+
+
+@font-face {
+	font-family: kravitz;
+	src: local('fonts/KRAVITZ_.TTF'),url('fonts/KRAVITZ_.TTF'),url('../fonts/KRAVITZ_.TTF')
+	,url('../fonts/KRAVITZ_.eot?') format('eot')
+	,url('fonts/KRAVITZ_.eot?') format('eot')
+	,url('http://www.awkwardturtlemedia.com/fonts/KRAVITZ_eot?') format('eot');
+}
+
+
+
+
+
+@font-face {
+	font-family: gillsanie;
+	src: local('fonts/ufonts.com_gillsans-light-webfont.ttf'),url('fonts/ufonts.com_gillsans-light-webfont.ttf'),url('../fonts/ufonts.com_gillsans-light-webfont.ttf');
+	src: url('fonts/ufonts.com_gillsans-light-webfont.eot?#iefix') format('embedded-opentype?') format('eot');
+	src: url('fonts/ufonts.com_gillsans-light-webfont.eot?') format('eot');
+	src: url('../fonts/ufonts.com_gillsans-light-webfont.eot?#iefix') format('embedded-opentype?') format('eot');
+	src: url('../fonts/ufonts.com_gillsans-light-webfont.eot?') format('eot');
+
+}
+
+@font-face {
+	font-family: gillsan;
+	src: local('fonts/ufonts.com_gillsans-light-webfont.ttf'),url('fonts/ufonts.com_gillsans-light-webfont.ttf'),url('../fonts/ufonts.com_gillsans-light-webfont.ttf'),url('fonts/ufonts.com_gillsans-light-webfont.eot?#iefix') format('embedded-opentype');
+	src: url('fonts/ufonts.com_gillsans-light-webfont.eot'),
+
+}
+
+
+
+
+
+header 
+{
+	background-color:#595959;
+	background-color:rgba(0,0,0,.65);   
+    box-shadow: 0 -5px 8px -5px rgba(0,0,0,0.65) inset;
+    top:0;
+    position: fixed;
+    width: 100%;
+}
+
+.bannerA
+{
+	background-image:url(../images/bannerv1.jpg);	
+	width:1000px;
+	height:198px;
+	background-color:#cccccc;
+	max-width:100%;
+	margin:0 auto;
+	display:block;
+	
+}
+
+.copyright
+{
+	margin: 30px auto 30px auto;
+	width:1000px;
+	text-align:center;
+	
+}
+
+.footer
+{
+	position: relative;
+	padding: 15px 0px;
+	min-height: 125px;
+	
+	
+}
+
+.footer .contact
+{
+	width:19.1489%;
+	text-align:left;
+	float:left;	
+}
+
+.footer h2
+{
+	margin-bottom: 10px;
+	font-size:17px;
+	
+}
+
+.footer .middle
+{
+	
+	width: 36.1702%;
+	padding-left: 2.12766%;
+	border-left:1px solid #666;
+	-moz-box-sizing:border-box;	
+	min-height: 125px;
+	float:left;
+	text-align:left
+}
+
+.footer .right
+{
+	width:40.4255%;	
+	padding-left: 2.12766%;
+	border-left:1px solid #666;
+	-moz-box-sizing:border-box;	
+	min-height: 125px;
+	float:left;
+	text-align:left
+	
+}
+
+
+.viddisplay
+{
+	text-align:center;
+}
+
+
+.viddisplay a
+{
+	filter:url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+	-webkit-filter: grayscale(1); 
+	
+	
+}
+
+.viddisplay a:hover
+{
+	filter:none;
+	opacity:1;
+	-webkit-filter: none;
+}
+
+.viddisplay img
+{
+	filter:gray;
+	box-shadow: 0 5px 13px rgba(0, 0, 0, 0.35);
+}
+
+.viddisplay img:hover
+{
+	filter:none;	
+}
+
+
+.vidcolleft
+{
+	width:495;
+	float:left
+}
+
+.vidcolright
+{
+	width:495;
+	float:right;
+	
+}
+
+
+.vid-row
+{
+	extends:row;
+	margin-bottom:30px;	
+	height:253px;
+	
+}
+
+
+
+.threecol
+{
+	width:250px;
+	float:left;	
+	
+}
+
+.fourcol
+{
+	width:333px;
+	float:left;	
+}
+
+.pricingcol
+{
+	width:333px;
+	float:left;
+	text-align:left;
+	margin-bottom:30px;
+	margin-left:333px;
+}
+
+.pricingcol h2
+{
+	font-size: 20px;
+	margin-top:0;	
+}
+
+.pricingcol ul
+{
+	list-style-type:disc;	
+}
+
+.pricingcol h3
+{
+	font-size: 15px;
+	margin-bottom:10px;	
+}
+
+.pricingcol hr
+{
+	height:1px;
+	
+}
+
+
+.fivecol
+{
+	width: 416px;	
+	float:left;
+}
+
+
+
+
+.sixcol
+{
+	width: 600px;
+	float:left;
+}
+
+.sevencol
+{
+	width: 582px;
+	float: left;
+	
+		
+}
+
+
+
+body
+{
+    color: #333333;
+    font: 20px/1.4 "gillsan","gillsanie","kravitz", Tahoma, Geneva, sans-serif;
+    margin: 0;
+    /*height: 1600px;*/
+    background-color: #FFFFFF;
+	/*background-image:url(../images/bg.png);*/
+	height:auto;
+}
+
+.mediadiv
+{
+	display:block;
+	height: 198px;
+	margin-right:0px;
+	padding: 110px 0px 0px 0px;
+	/*padding: 81px 0px 0px 0px;  for video testing*/
+	
+}
+
+hr {
+    height: 3px;
+    background:#333;
+    width: 100%;
+    font-size: 3px; /* IE 6 */
+	/*border:0 solid #000000;*/
+}
+
+
+.content
+{
+
+	margin: 0 auto;
+	width:1000px;	
+   /* padding-top: 95px;  remove */
+    padding-top:40px;
+    text-align:center;
+	/*background-color:Black;  */
+	background-color:#FFF;
+	/*background-image:url(../images/bg.png);*/
+	height: auto;
+	
+}   
+
+
+nav
+{
+    display:block;
+    width:1000px;    
+	/*width: 80%;		remove*/
+    margin: 0 auto;
+    
+}
+
+
+a:link
+{
+   text-decoration: none;
+}
+
+ul
+{
+    list-style: none outside none;   
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav
+{
+    list-style: none outisde none;
+}
+
+.main-nav a:before
+{
+    content:"";
+    display:block;
+    /*height: 30px;   remove*/
+}
+
+.main-nav a
+{
+    color:White;
+    display:block;	 
+	font-size: 25px;
+	font-family: "kravitz","gillsan","gillsanie",Tahoma,"MS Serif", "New York", Geneva, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+	
+	
+    /*padding: 5px 15px 20px; remove*/
+    position:relative;
+}
+
+.main-nav span
+{
+    display:block;    
+    font-size: 9px;
+    text-align: center;
+}
+
+.main-nav li
+{
+    
+    float:left;
+    position: relative;  
+    width: 14.2%;  
+   
+}
+
+
+.main-nav .link1
+{
+     -moz-transition: background-color 0.5s ease 0s;     
+}
+
+.main-nav .link1:hover
+{
+    background: none repeat scroll 0 0 #FFF8C6;    
+}
+
+.main-nav .link1:hover a
+{
+    color:#000;   
+}
+
+
+.main-nav .link2
+{
+     -moz-transition: background-color 0.5s;     
+}
+
+.main-nav .link2:hover
+{
+    background: none repeat scroll 0 0 #0CFF65;   
+}
+
+.main-nav .link2:hover a
+{
+    color:#000;   
+}
+
+.main-nav .link3
+{
+     -moz-transition: background-color 0.5s ease 0s;     
+}
+
+
+.main-nav .link3:hover
+{
+    background: none repeat scroll 0 0 #D54421;   
+}
+
+.main-nav .link3:hover a
+{
+    color:#000;   
+}
+
+.main-nav .link4
+{
+     -moz-transition: background-color 0.5s;     
+}
+
+.main-nav .link4:hover
+{
+    background: none repeat scroll 0 0 #FFAE0C;  
+}
+.main-nav .link4:hover a
+{
+    color:#000;   
+}
+
+.main-nav .link5
+{
+     -moz-transition: background-color 0.5s;     
+}
+.main-nav .link5:hover
+{
+    background: none repeat scroll 0 0 #8CD37E;    
+}
+.main-nav .link5:hover a
+{
+    color:#000;   
+}
+
+.main-nav .link6
+{
+     -moz-transition: background-color 0.5s;     
+}
+.main-nav .link6:hover
+{
+    background: none repeat scroll 0 0 #C0CB1C;     
+}
+.main-nav .link6:hover a
+{
+    color:#000;   
+}
+
+.main-nav .link7
+{
+     -moz-transition: background-color 0.5s;     
+}
+
+.main-nav .link7:hover
+{
+    background: none repeat scroll 0 0 #872590;   
+}
+
+.main-nav .link7:hover a
+{
+    color:#000;   
+}
+
+
+
+
+
+
+
+
+
+.group:before, .group:after
+{
+    content: "";
+    display: table;
+}
+
+.group:after
+{
+    clear:both;
+}
+
+.group
+{
+       
+}
+
+.content #vid1link
+{
+	background-image:url(../images/cplimg/susan_steven_highlight_nonhover.jpg);
+	display:block;
+	height: 253px;
+	background-repeat:no-repeat;
+	width:450px;
+	
+	
+}
+
+
+
+
+
+
+
+.home .main-nav  .link1
+{
+     background: none repeat scroll 0 0 #FFF8C6;     
+}
+
+.home .main-nav  .link1 a
+{
+     color:Black;    
+}
+
+.videos .main-nav  .link2
+{
+     background: none repeat scroll 0 0 #0CFF65;     
+}
+
+.videos .main-nav  .link2 a
+{
+     color:Black;    
+}
+
+.pricing .main-nav  .link3
+{
+     background: none repeat scroll 0 0 #D54421;     
+}
+
+.pricing .main-nav  .link3 a
+{
+     color:Black;    
+}
+
+.contactus .main-nav .link4
+{
+    background: none repeat scroll 0 0 #FFAE0C;
+}
+
+.contactus .main-nav .link4 a
+{
+    color:Black;  
+}
+
+.vendors .main-nav .link5
+{
+    background: none repeat scroll 0 0 #8CD37E;
+}
+
+.vendors .main-nav .link5 a
+{
+    color:Black;  
+}
+
+.about .main-nav .link6
+{
+    background: none repeat scroll 0 0 #C0CB1C;
+}
+
+.about .main-nav .link6 a
+{
+    color:Black;  
+}
+
+.blog .main-nav .link7
+{
+    background: none repeat scroll 0 0 #872590;
+}
+
+.blog .main-nav .link7 a
+{
+    color:Black;  
+}
